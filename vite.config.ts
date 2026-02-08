@@ -24,9 +24,9 @@ export default defineConfig({
       manifest: {
         icons: manifestIcons,
       },
-      workbox: {
-        globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
-      },
+      // workbox: {
+      //   globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
+      // },
     }),
   ],
 });
