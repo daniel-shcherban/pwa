@@ -12,6 +12,7 @@ const manifestIcons = [
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/pwa/",
   plugins: [
     react(),
     VitePWA({
